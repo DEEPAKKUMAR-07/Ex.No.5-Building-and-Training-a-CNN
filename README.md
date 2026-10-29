@@ -7,14 +7,14 @@ Step 1: Import Libraries
 •	import tensorflow.keras for CNN layers and models
 •	import matplotlib.pyplot for visualisation
 •	to_categorical for one-hot encoding
-import tensorflow as tf
+import tensorflow as tf 
 from tensorflow.keras import datasets, layers, models
 from tensorflow.keras.utils import to_categorica
 import matplotlib.pyplot as plt
 import numpy as np
 
 Step 2: Load CIFAR-10 Dataset
-•	Training Set: 50,000 images
+•	Training Set: 50,000 images 
 •	Test Set: 10,000 images
 •	Classes: Airplane, Automobile, Bird, Cat, Deer, Dog, Frog, Horse, Ship, Truck
 (X_train, y_train), (X_test, y_test) 
